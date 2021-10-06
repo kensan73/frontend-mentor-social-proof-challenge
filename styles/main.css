@@ -1,0 +1,22 @@
+@media screen and (min-width: 1440px) {
+    * {
+        box-sizing: border-box;
+    }
+    section.starRatings,
+    section.heroCopy {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    section.heroCopy {
+        margin-top: 127px;
+        margin-left: 165px;
+        width: 445px;
+    }
+
+    section.starRatings {
+        margin-top: 145px;
+        margin-left: 125px;
+        width: 540px;
+    }
+}

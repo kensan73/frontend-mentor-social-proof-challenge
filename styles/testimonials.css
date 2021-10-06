@@ -1,0 +1,170 @@
+@media screen and (max-width: 1439px) {
+  .testimonials {
+    margin-top: 49px;
+  }
+
+  .testimonials > .person-card {
+    background: #512051;
+    border-radius: 8px;
+
+    padding: 40px 32px 32px 32px;
+
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle {
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle > * {
+    display: inline-block;
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle > .picture {
+    margin-right: 23px;
+  }
+
+  .testimonials
+    > .person-card
+    > .picture-name-subtitle
+    > .name-subtitle-container {
+    vertical-align: top;
+    padding-top: 5px;
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle h3,
+  .testimonials > .person-card > .picture-name-subtitle h4 {
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle h3 {
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #ffffff;
+  }
+
+  .testimonials > div > .picture-name-subtitle h4 {
+    margin-top: 5px;
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ee69a4;
+  }
+
+  .testimonials > div > span {
+    margin-top: 26px;
+    display: inline-block;
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.232143px;
+    color: #ffffff;
+  }
+
+  .testimonials > *:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .testimonials > *:last-child {
+    margin-bottom: 99px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .testimonials {
+    margin-top: 72px;
+    margin-bottom: 100px;
+  }
+
+  .testimonials > .person-card {
+    background: #512051;
+    border-radius: 8px;
+
+    padding: 40px 32px 32px 32px;
+
+    margin-left: 24px;
+    margin-right: 24px;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 234px;
+  }
+
+  .testimonials > .person-card:first-child {
+    margin-left: 165px;
+  }
+
+  .testimonials > .person-card:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  .testimonials > .person-card:nth-child(2) {
+    margin-top: 16px;
+  }
+
+  .testimonials > .person-card:nth-child(3) {
+    margin-top: 32px;
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle {
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle > * {
+    display: inline-block;
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle > .picture {
+    padding-right: 23px;
+  }
+
+  .testimonials
+  > .person-card
+  > .picture-name-subtitle
+  > .name-subtitle-container {
+    vertical-align: top;
+    padding-top: 5px;
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle h3,
+  .testimonials > .person-card > .picture-name-subtitle h4 {
+  }
+
+  .testimonials > .person-card > .picture-name-subtitle h3 {
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #ffffff;
+  }
+
+  .testimonials > div > .picture-name-subtitle h4 {
+    margin-top: 5px;
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ee69a4;
+  }
+
+  .testimonials > div > span {
+    margin-top: 26px;
+    display: inline-block;
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.232143px;
+    color: #ffffff;
+  }
+}

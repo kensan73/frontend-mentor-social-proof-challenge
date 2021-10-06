@@ -1,0 +1,83 @@
+@media screen and (max-width: 1439px) {
+    .starRatings {
+        margin-top: 40px;
+    }
+
+    .starRatings > div {
+        padding-top: 16px;
+        background-color: #F7F2F7;
+        text-align: center;
+        margin-left: 24px;
+        margin-right: 24px;
+
+        border-radius: 8px;
+    }
+
+    .starRatings > div:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .starRatings > div > div:nth-child(2) > span {
+        padding-top: 16px;
+
+        display: inline-block;
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        /* identical to box height */
+
+        color: #512051;
+
+        padding-bottom: 16px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .starRatings {
+    }
+
+    .starRatings > .stars-and-caption {
+        background-color: #F7F2F7;
+
+        border-radius: 8px;
+        width: 445px;
+    }
+
+    .starRatings > .stars-and-caption:nth-child(2) {
+        margin-left: 45px;
+    }
+
+    .starRatings > .stars-and-caption:nth-child(3) {
+        margin-left: 90px;
+    }
+
+    .starRatings > .stars-and-caption:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .starRatings > .stars-and-caption > * {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .starRatings .stars-svg-container {
+        margin-top: 14px;
+        margin-left: 32px;
+    }
+
+    .starRatings > .stars-and-caption > div:nth-child(2) > span {
+        padding-top: 16px;
+
+        display: inline-block;
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        color: #512051;
+        padding-bottom: 16px;
+
+        padding-left: 32px;
+    }
+}
