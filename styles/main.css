@@ -10,7 +10,7 @@
 
     section.heroCopy {
         margin-top: 127px;
-        margin-left: 165px;
+        margin-left: calc((100% - 1110px)/2);
         width: 445px;
     }
 

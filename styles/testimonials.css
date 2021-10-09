@@ -88,7 +88,6 @@
 
     padding: 40px 32px 32px 32px;
 
-    margin-left: 24px;
     margin-right: 24px;
 
     display: inline-block;
@@ -98,7 +97,7 @@
   }
 
   .testimonials > .person-card:first-child {
-    margin-left: 165px;
+    margin-left: calc((100% - 1110px)/2);
   }
 
   .testimonials > .person-card:not(:first-child) {
